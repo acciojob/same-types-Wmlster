@@ -5,12 +5,12 @@ function isSameType(value1, value2) {
 		return true;
 	}
 	
-	if(value1>0&&value1!=NaN)     
+	if(value1>0&&value1!="NaN")     
 	{
 		value1=Number(value1);
 	}
 	
-	if(value2>0&&value2!=NaN)
+	if(value2>0&&value2!="NaN")
 	{
 		value2=Number(value2);
 	}
