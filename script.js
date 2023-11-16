@@ -1,10 +1,10 @@
 function isSameType(value1, value2) {
   //your js code here
-	if(value1>0)   
+	if(value1>0&&value1!=NaN)    
 	{
 		value1=Number(value1);
 	}
-	if(value2>0)
+	if(value2>0&&value2!=NaN)
 	{
 		value2=Number(value2);
 	}
